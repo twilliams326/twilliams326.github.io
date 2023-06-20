@@ -1,0 +1,171 @@
+html {
+    background-color: black;
+    
+}
+img {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+h1 {
+    background: linear-gradient(to right, rgb(0 236 238 ) , rgb(0 237 151 ));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.job-card {
+    background-color: rgba(0, 0, 0, 0.87);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    
+  }
+  
+  .job-details {
+    text-align: center;
+  }
+  
+  .job-details h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .job-details p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .job-details ul {
+    list-style-type: disc;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+  }
+  
+  .apply-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00ccff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .apply-button:hover {
+    background-color: #0099cc;
+  }
+  
+#my-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color:  rgba(0, 0, 0, 0.007);    
+    border-color: #00ED97 #00ECEE #00ED97 #00ECEE;
+    /*background-image: url("/images/imgback.jpg")*/
+}
+/* Previous CSS styles for the card and image */
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .middle h3 {
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 5px;
+  }
+
+#my-cards .card {
+    position: relative;
+    width: 80%;
+    height: auto;
+    margin: 20px 0;
+    transition: 200ms ease;
+    background-color:  rgb(18, 20, 20);
+    color: #fff;
+    border: 1px solid;
+    border-color: #00ED97 #00ECEE #00ED97 #00ECEE;
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.5);
+}
+#my-cards .card:hover {
+    transform: scale(1.05);
+}
+#my-cards .card img {
+    width: 100%;
+    border: none;
+    margin: 0 auto;
+}
+#my-cards .card:hover .image {
+-webkit-filter: brightness(50%);
+-webkit-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+transition: all 0.3s ease;
+}
+#my-cards .middle {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-filter: brightness(100%);
+}
+
+#my-cards .card:hover .middle {
+   opacity: 1; 
+}
+
+@media(max-width: 768px){
+    #my-cards .card {
+        width: 95%;
+    }
+
+    #my-cards .card:hover {
+        transform: scale(1);
+    }
+}
+
+#my-cards h1 {
+    text-align: center;
+}
+#my-cards p {
+    text-align: center;
+}
+.schedule {
+    display: grid;
+    margin-top: 16px;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.87);
+    border: 1px solid;
+    border-color: #00ED97 #00ECEE #00ED97 #00ECEE;
+    color: ghostwhite;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;}
+    a{
+        text-decoration: none;
+    }
