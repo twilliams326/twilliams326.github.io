@@ -1,0 +1,9 @@
+; A BIND file is a .TXT file that's used to export
+; DNS records from one domain to another. BIND
+; files are commonly used by lots of domain
+; registrars, so they're a good choice if
+; you're exporting resource records to a domain
+; that's managed by a different registrar.
+
+augustamobiledetail.com. 300 IN A 185.199.108.153
+www.augustamobiledetail.com. 300 IN CNAME twilliams326.github.io.
