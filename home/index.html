@@ -7,14 +7,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
-    <link rel="icon" href="/images/favicon.ico" type="image/png">
     <!--Firebase: Firebase is a platform by Google that provides hosting, database, authentication, and other backend services. It's well-suited for web and mobile applications.-->
     <title>Augusta Mobile Detail</title>
 </head>
 <body>
     <div class="landing-page">
         <div class="head-logo">
-            <img alt="headerLogo" src="/images/Transparent Logo.png"/>
+            <img alt="headerLogo" src="/Transparent Logo.png"/>
         </div>
         
       <div class="navs">
@@ -25,57 +24,7 @@
                 <li><a href="/careers/careers.html">Careers</a></li>
             </ul>
         </div>
-        <!--<button class="chatbot-toggler">
-            <span class="material-symbols-rounded">mode_comment</span>
-            <span class="material-symbols-outlined">close</span>
-          </button>
-          <div class="chatbot">
-            <header>
-              <h2>Chatbot</h2>
-              <span class="close-btn material-symbols-outlined">close</span>
-            </header>
-            <ul class="chatbox">
-              <li class="chat incoming">
-                <span class="material-symbols-outlined">smart_toy</span>
-                <p>Hi there 👋<br>How can I help you today?</p>
-              </li>
-            </ul>
-            <div class="chat-input">
-              <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
-              <span id="send-btn" class="material-symbols-rounded">send</span>
-            </div>-->
-
-          </div>
-<!--Modal
-<div class="modal" id="myModal">
-    <div class="modal-content">
-        <span class="close" id="closeModal">&times;</span>
-        <div onsubmit="sendEmail(); reset(); return false;" class="form-lead-info">
-            <form class="lead-info">
-                <div class="app-type">
-                    <h2 style="color:gray">Schedule Now?</h2>
-                    <select id="app-type">
-                        <option value="option1" id="pckg1">Interior Plus (Most Popular)</option>
-                        <option value="option2" id="pckg2">Interior Detail (Premium)</option>
-                        <option value="option3" id="pckg3">Exterior Detail</option>
-                        <option value="option4" id="pckg4">Exterior Detail and Interior Plus</option>
-                        <option value="option5" id="pckg5">Exterior Detail and Interior Detail</option>
-                    </select>
-                </div>
-                <label for="lead-date">Appointment Date:</label>
-                <input class="lead-date" type="date" required>
-                <label for="lead-time">Appointment Time:</label>
-                <input class="lead-time" type="time" required>
-                <input class="contact" id="firstName" required type="text" placeholder="First Name...">
-                <input class="contact" id="lastName" required type="text" placeholder="Last Name...">
-                <input class="contact" id="email" required type="text" placeholder="Email Address...">
-                <input pattern="[0-9]{10}" class="contact" id="phone" required type="tel" placeholder="Phone Number...">
-                <button type="submit" class="submit-button" id="submit">Submit</button>
-            </form>
-        </div>
-    </div>
-</div>-->
-
+        
 
 <!--Package Cards-->
 <section id="my-cards">
@@ -83,48 +32,17 @@
 <div class="card">
     <img class="image" src="/extractor.jpg" alt="">
         <div class="show-details" style="padding: 20px;">
-            <div class="icons-details">
-                <div style="margin-left: 0;" class="icon-span">
-                    <i style="margin-right: 5px;" class="fa-solid fa-clock"></i>
-                    <span>About 5 hours</span>
-                </div>
-                <div style="margin-right: 0;" class="icon-span">
-                    <i style="margin-right: 5px;" class="fa-solid fa-tag"></i>
-                    <span>$199.99</span>
-                </div>
-            </div>
-            
             <h1>Premium Interior Detail</h1>
-            <p></p>
+            <p><i class="fa-solid fa-tag"></i>
+              <span style="margin-right: 16px;">$199.99</span><i class="fa-solid fa-clock"></i>
+              <span>About 5 hours</span></p>
                 <p class="description">Interior Plus + Carpet & Seat Shampoo</p>
-                <a href="https://app.acuityscheduling.com/schedule.php?owner=29521147&appointmentType=48830925" target="_blank"><button class="schedule">Schedule</button></a>
+                <a href="https://AugustaMobileDetail.as.me/premiuminteriordetail" target="_blank"><button class="schedule">Schedule</button></a>
     </div>
     <div class="middle">  
           </div>
         </div>
-        <div id="modal1" class="modal1">
-            <div class="modal-content1">
-                <span class="close" onclick="closeModal()">&times;</span>
-                <h2 id="modal-title1">Premium Interior Detail</h2>
-                <p>Price: <span id="modal-price1">$199.99</span></p>
-                <form>
-                    <label for="date">Date:</label>
-                    <input type="date" id="date" required>
-                    <label for="time">Time:</label>
-                    <input type="time" id="time" required>
-                    <label for="firstName">First Name:</label>
-                    <input type="text" id="firstName" required>
-                    <label for="lastName">Last Name:</label>
-                    <input type="text" id="lastName" required>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" required>
-                    <label for="phone">Phone Number:</label>
-                    <input type="tel" id="phone" required>
-                    <button type="submit">Submit</button>
-                </form>
-            </div>
-        </div>
-
+     
         <!--Card 2-->
         <div class="card">
             <img class="image" src="/interiorplus.jpg" alt="">
@@ -143,7 +61,7 @@
                     <h1>Interior Plus (Most Popular)</h1>
                     <p></p>
                         <p class="description">Thorough Vacuum & Wipedown + UV Protection</p>
-                <a href="https://app.acuityscheduling.com/schedule.php?owner=29521147&appointmentType=48796171" target="_blank"><button class="schedule">Schedule</button></a>
+                <a href="https://AugustaMobileDetail.as.me/interiorplus" target="_blank"><button class="schedule">Schedule</button></a>
             </div>
             <div class="middle">  
                   </div>
@@ -166,7 +84,7 @@
             <h1>Exterior Detail</h1>
             <p></p>
                 <p class="description">Thorough Exterior Cleaning + Ceramic Coating + Tire Shine</p>
-                <a href="https://app.acuityscheduling.com/schedule.php?owner=29521147&appointmentType=48831038" target="_blank"><button class="schedule">Schedule</button></a>
+                <a href="https://AugustaMobileDetail.as.me/exteriordetail" target="_blank"><button class="schedule">Schedule</button></a>
     </div>
     <div class="middle">  
           </div>
@@ -272,22 +190,7 @@
   </footer>
   
 <!--Footer-->
-<script src="https://smtpjs.com/v3/smtp.js"></script>
-<script>
-    function sendEmail() {
-        Email.send({
-    Host : "smtp.gmail.com",
-    Username : "augustaautodetail@gmail.com",
-    Password : "1gatechfan",
-    To : 'augustaautodetail@gmail.com',
-    From : document.getElementById("email").value,
-    Subject : "New Order Form",
-    Body : "And this is the body"
-}).then(
-  message => alert("Email sent successfully.")
-);
-    }
-</script>
+
 <script src="home.js"></script>
 </body>
 </html>
@@ -304,7 +207,7 @@
 
 <!--Card 4
 <div class="card">
-    <img class="image" src="/interiorplus.jpg" alt="">
+    <img class="image" src="/images/interiorplus.jpg" alt="">
         <div class="show-details" style="padding: 20px;">
             <div class="icons-details">
                 <div style="margin-left: 0;" class="icon-span">
@@ -327,7 +230,7 @@
         </div>-->
         <!--Card 5
 <div class="card">
-    <img class="image" src="/interiorplus.jpg" alt="">
+    <img class="image" src="/images/interiorplus.jpg" alt="">
         <div class="show-details" style="padding: 20px;">
             <div class="icons-details">
                 <div style="margin-left: 0;" class="icon-span">
