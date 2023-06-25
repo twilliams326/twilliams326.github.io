@@ -184,20 +184,20 @@ option {
 
 
 #my-cards {
-    display: grid;
-    grid-auto-flow: column;
-    justify-items: center;
-    align-items: center;
-    background-attachment: fixed;
-    background-repeat: repeat;
-    background-size: cover;
-    background-position: center center;
-    background-color:  rgba(0, 0, 0, 0.007);    
-    border-top: 2px solid;
-    border-color: #00ED97 #00ECEE #00ED97 #00ECEE;
-    /*background-image: url("/images/imgback.jpg")*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  width: 62.5%;
+  margin: auto;
+  background-position: center center;
+  background-color: rgba(0, 0, 0, 0.007);
+  border-top: 2px solid;
+  border-color: #00ED97 #00ECEE #00ED97 #00ECEE;
+  /*background-image: url("/images/imgback.jpg")*/
 }
-/* Previous CSS styles for the card and image */
+revious CSS styles for the card and image */
 
 .middle {
     position: absolute;
