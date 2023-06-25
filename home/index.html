@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
     <link rel="icon" href="/images/favicon.ico" type="image/png">
     <!--Firebase: Firebase is a platform by Google that provides hosting, database, authentication, and other backend services. It's well-suited for web and mobile applications.-->
     <title>Augusta Mobile Detail</title>
@@ -12,17 +14,38 @@
 <body>
     <div class="landing-page">
         <div class="head-logo">
-            <img alt="headerLogo" src="/Transparent Logo.png"/>
+            <img alt="headerLogo" src="/images/Transparent Logo.png"/>
         </div>
         
-        <div class="navs">
+      <div class="navs">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="augustamobiledetail.com">Home</a></li>
                 <li><a href="https://app.acuityscheduling.com/schedule.php?owner=29521147" target="_blank">Schedule</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="/careers/careers.html">Careers</a></li>
             </ul>
         </div>
+        <!--<button class="chatbot-toggler">
+            <span class="material-symbols-rounded">mode_comment</span>
+            <span class="material-symbols-outlined">close</span>
+          </button>
+          <div class="chatbot">
+            <header>
+              <h2>Chatbot</h2>
+              <span class="close-btn material-symbols-outlined">close</span>
+            </header>
+            <ul class="chatbox">
+              <li class="chat incoming">
+                <span class="material-symbols-outlined">smart_toy</span>
+                <p>Hi there 👋<br>How can I help you today?</p>
+              </li>
+            </ul>
+            <div class="chat-input">
+              <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+              <span id="send-btn" class="material-symbols-rounded">send</span>
+            </div>-->
+
+          </div>
 <!--Modal
 <div class="modal" id="myModal">
     <div class="modal-content">
@@ -58,7 +81,7 @@
 <section id="my-cards">
         <!--card 1-->
 <div class="card">
-    <img class="image" src="/extractor.jpg" alt=""/>
+    <img class="image" src="/images/extractor.jpg" alt="">
         <div class="show-details" style="padding: 20px;">
             <div class="icons-details">
                 <div style="margin-left: 0;" class="icon-span">
@@ -104,7 +127,7 @@
 
         <!--Card 2-->
         <div class="card">
-            <img class="image" src="/interiorplus.jpg" alt=""/>
+            <img class="image" src="/images/interiorplus.jpg" alt="">
                 <div class="show-details" style="padding: 20px;">
                     <div class="icons-details">
                         <div style="margin-left: 0;" class="icon-span">
@@ -127,7 +150,7 @@
                 </div>
         <!--Card 3-->
 <div class="card">
-    <img class="image" src="/exterior2.jpg" alt=""/>
+    <img class="image" src="/images/exterior2.jpg" alt="">
         <div class="show-details" style="padding: 20px;">
             <div class="icons-details">
                 <div style="margin-left: 0;" class="icon-span">
@@ -136,7 +159,7 @@
                 </div>
                 <div style="margin-right: 0;" class="icon-span">
                     <i style="margin-right: 5px;" class="fa-solid fa-tag"></i>
-                    <span>$99.00</span>
+                    <span>$74.99</span>
                 </div>
             </div>
             
@@ -183,21 +206,33 @@
   <section class="services-overview">
     <h2 class="service-overview-title">Services Overview</h2>
     <div class="service">
-        <img src="/favicon.ico" alt="Car Wash Icon"/>
+        <img src="/images/favicon.ico" alt="Car Wash Icon">
       <h3>Premium Interior Detail</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat lorem et velit tincidunt, id gravida sem bibendum.</p>
+      <p>Our Premium Interior Detail service takes your car's interior to a whole new level of cleanliness and luxury. 
+        Building on our renowned Interior Plus Detail, we go the extra mile by providing expert carpet and seat shampooing.
+         Say goodbye to stains, odors, and dirt embedded deep within your upholstery.Experience a meticulously detailed interior that feels as good as it looks. 
+        </p>
+        <p>Don't settle for less than perfection. Schedule your appointment today and indulge your car with the care it deserves. Click the button below to begin scheduling your appointment.</p>
       <button onclick="scrollToTop()" id="this-one" class="schedule">This one!</button>
     </div>
     <div class="service">
-        <img src="/favicon.ico" alt="Car Wash Icon"/>
+        <img src="/images/favicon.ico" alt="Car Wash Icon">
         <h3>Interior Plus (Most Popular)</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat lorem et velit tincidunt, id gravida sem bibendum.</p>
+        <p>Enhance the interior of your vehicle with our Interior Plus Detail. 
+            Our skilled team performs a thorough vacuuming, eliminating all debris. Surfaces are meticulously wiped down, leaving a spotless finish. We also provide UV protection to door panels, 
+            dashboard, and other hard surfaces, preserving their beauty. Relive the new car experience with our most popular service!</p>     
+        <p>
+            Don't settle for less than perfection. Schedule your appointment today and indulge your car with the care it deserves. Click the button below to begin scheduling your appointment.
+        </p>
         <button onclick="scrollToTop()" id="this-one" class="schedule">This one!</button>
       </div>
     <div class="service">
-        <img src="/favicon.ico" alt="Car Wash Icon"/>
+        <img src="/images/favicon.ico" alt="Car Wash Icon">
       <h3>Exterior Detail</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat lorem et velit tincidunt, id gravida sem bibendum.</p>
+      <p>Our Ceramic Coated Exterior Detail service is the ultimate solution for giving your vehicle's exterior a flawless, long-lasting shine. 
+        Our team meticulously cleans and treats every exterior surface, leaving no spot untouched.
+         We then apply a high-quality ceramic coating that provides a protective layer, guarding your car against the elements.</p>
+         <p>Don't settle for less than perfection. Schedule your appointment today and indulge your car with the care it deserves. Click the button below to begin scheduling your appointment.</p>
       <button onclick="scrollToTop()" id="this-one" class="schedule">This one!</button>
     </div>
   </section>
@@ -206,7 +241,7 @@
 <section class="about-section">
     <div class="about-card">
       <div class="logo">
-        <img src="/Transparent Logo.png" alt="Your Logo"/>
+        <img src="/images/Transparent Logo.png" alt="Your Logo">
       </div>
       <div class="content">
         <h2>About Us</h2>
